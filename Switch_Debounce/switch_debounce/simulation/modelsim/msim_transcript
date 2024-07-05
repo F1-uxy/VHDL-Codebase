@@ -1,0 +1,121 @@
+# ERROR ApplyCurrentColumnConfiguration config_name Default not found
+# Default Column Data
+# 	name AllColumns - name Type State Order ParentPath ClassInfo
+# Column Data
+# 	name AllColumns - name Type State Order ParentPath ClassInfo
+# do switch_debounce_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /home/cflux/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {/home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/debounce_filter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:14:02 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work /home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/debounce_filter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Debounce_Filter
+# -- Compiling architecture RTL of Debounce_Filter
+# End time: 22:14:02 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/led_toggle_project.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:14:02 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work /home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/led_toggle_project.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity LED_Toggle_Project
+# -- Compiling architecture RTL of LED_Toggle_Project
+# End time: 22:14:02 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/switch_debounce.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:14:02 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work /home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/switch_debounce.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Debounce_Project_Top
+# -- Compiling architecture RTL of Debounce_Project_Top
+# -- Loading package NUMERIC_STD
+# -- Loading entity Debounce_Filter
+# -- Loading entity LED_Toggle_Project
+# End time: 22:14:02 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -2008 -work work {/home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/testbench.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:14:02 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work /home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Compiling entity Debounce_Filter_TB
+# -- Compiling architecture test of Debounce_Filter_TB
+# -- Loading package NUMERIC_STD
+# -- Loading entity Debounce_Filter
+# End time: 22:14:02 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  Debounce_Filter_TB
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" Debounce_Filter_TB 
+# Start time: 22:14:02 on Jul 01,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading std.env(body)
+# Loading ieee.numeric_std(body)
+# Loading work.debounce_filter_tb(test)
+# Loading work.debounce_filter(rtl)
+# 
+# add wave *
+# Unable to lock WLF file "vsim.wlf". Retrying 1 times, errno 11
+# Unable to lock WLF file "vsim.wlf". Retrying 2 times, errno 11
+# Unable to lock WLF file "vsim.wlf". Retrying 3 times, errno 11
+# Cannot lock WLF file: "vsim.wlf"
+#           errno 11: Resource temporarily unavailable.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: unknown  Hostname: cflux-main  ProcessID: 9045
+#           Attempting to use alternate WLF file "./wlft1k5QsN".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft1k5QsN
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: Starting Testbench
+#    Time: 0 ps  Iteration: 0  Instance: /debounce_filter_tb
+# ** Failure: Failed
+#    Time: 42 ns  Iteration: 0  Process: /debounce_filter_tb/line__16 File: /home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/testbench.vhd
+# Break in Process line__16 at /home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/testbench.vhd line 29
+# 
+# stdin: <EOF>
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Note: Starting Testbench
+#    Time: 0 ps  Iteration: 0  Instance: /debounce_filter_tb
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+run
+restart
+restart
+run
+# ** Note: Starting Testbench
+#    Time: 0 ps  Iteration: 0  Instance: /debounce_filter_tb
+# ** Failure: Failed
+#    Time: 42 ns  Iteration: 0  Process: /debounce_filter_tb/line__16 File: /home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/testbench.vhd
+# Break in Process line__16 at /home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/testbench.vhd line 29
+# End time: 22:32:32 on Jul 01,2024, Elapsed time: 0:18:30
+# Errors: 1, Warnings: 0

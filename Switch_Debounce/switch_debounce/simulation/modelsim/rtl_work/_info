@@ -1,0 +1,184 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/simulation/modelsim
+Edebounce_filter
+Z1 w1719850577
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8/home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/debounce_filter.vhd
+Z6 F/home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/debounce_filter.vhd
+l0
+L4 1
+VKW`<Ce2HI<ZCo>RniOX[^3
+!s100 _kzmk?kKhXK2>32<bC0:>0
+Z7 OV;C;2020.1;71
+33
+Z8 !s110 1719868442
+!i10b 1
+Z9 !s108 1719868442.000000
+Z10 !s90 -reportprogress|300|-2008|-work|work|/home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/debounce_filter.vhd|
+Z11 !s107 /home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/debounce_filter.vhd|
+!i113 1
+Z12 o-2008 -work work
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+Z14 DEx4 work 15 debounce_filter 0 22 KW`<Ce2HI<ZCo>RniOX[^3
+!i122 0
+l16
+L13 19
+VTd_YFOZ:Wkn;hdi@D4CR]2
+!s100 >bUX5LLllInaa63TPN>4N3
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Edebounce_filter_tb
+Z15 w1719868411
+Z16 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+R3
+R4
+!i122 3
+R0
+Z17 8/home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/testbench.vhd
+Z18 F/home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/testbench.vhd
+l0
+L4 1
+VdMN0?a;I]ajHUnJLmP7ZZ2
+!s100 RfB3M>K9eP62bRbZKd]ZK1
+R7
+33
+R8
+!i10b 1
+R9
+Z19 !s90 -reportprogress|300|-2008|-work|work|/home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/testbench.vhd|
+!s107 /home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/testbench.vhd|
+!i113 1
+R12
+R13
+Atest
+R2
+R14
+R16
+R3
+R4
+DEx4 work 18 debounce_filter_tb 0 22 dMN0?a;I]ajHUnJLmP7ZZ2
+!i122 3
+l8
+L6 27
+VW_GY@a1Lc[7lPA=5i<X=d0
+!s100 _aJfg<dgoVgn[7cl>l?^h1
+R7
+33
+R8
+!i10b 1
+R9
+R19
+Z20 !s107 /home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/testbench.vhd|
+!i113 1
+R12
+R13
+Edebounce_project_top
+Z21 w1719850655
+R3
+R4
+!i122 2
+R0
+Z22 8/home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/switch_debounce.vhd
+Z23 F/home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/switch_debounce.vhd
+l0
+L4 1
+VZ@fdeee1FUMHb`n1S0^ab1
+!s100 5MQ7ZG5E:aWbKe[ZD1i=f3
+R7
+33
+R8
+!i10b 1
+R9
+Z24 !s90 -reportprogress|300|-2008|-work|work|/home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/switch_debounce.vhd|
+Z25 !s107 /home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/switch_debounce.vhd|
+!i113 1
+R12
+R13
+Artl
+Z26 DEx4 work 18 led_toggle_project 0 22 m23AA7^@J1ehUI?K`;im63
+R2
+R14
+R3
+R4
+DEx4 work 20 debounce_project_top 0 22 Z@fdeee1FUMHb`n1S0^ab1
+!i122 2
+l14
+L11 17
+VENUWo[zneSDoWh`bX8`XD2
+!s100 P15ThNXeAWaKk>11?S2Qe2
+R7
+33
+R8
+!i10b 1
+R9
+R24
+R25
+!i113 1
+R12
+R13
+Eled_toggle_project
+Z27 w1719850527
+R3
+R4
+!i122 1
+R0
+Z28 8/home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/led_toggle_project.vhd
+Z29 F/home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/led_toggle_project.vhd
+l0
+L3 1
+Vm23AA7^@J1ehUI?K`;im63
+!s100 =Ui63gdH]hPBg038Y0>QE0
+R7
+33
+R8
+!i10b 1
+R9
+Z30 !s90 -reportprogress|300|-2008|-work|work|/home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/led_toggle_project.vhd|
+Z31 !s107 /home/cflux/Documents/Code/Russell Merrick Book/Switch_Debounce/switch_debounce/led_toggle_project.vhd|
+!i113 1
+R12
+R13
+Artl
+R3
+R4
+R26
+!i122 1
+l13
+L10 15
+Vmj5OFRYN:^lbJUi[=oMQJ3
+!s100 727UYf7BUEWSIMiEKKT?o2
+R7
+33
+R8
+!i10b 1
+R9
+R30
+R31
+!i113 1
+R12
+R13
